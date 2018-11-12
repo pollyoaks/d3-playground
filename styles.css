@@ -1,0 +1,72 @@
+#main-chart {
+    position: absolute;
+}
+
+#sub-menu-container {
+    position: absolute;
+    z-index: 100;
+    top: 66px;
+    left: 8px;
+}
+
+#sub-menu {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.icon-elem {
+    font-size: 45px;
+    cursor: pointer;
+    text-anchor: middle;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.icon-elem:hover {
+    fill: #313131;
+}
+
+.arc {
+    cursor: pointer;
+}
+
+.inner-label {
+    fill: #666;
+    font-size: 40px;
+    display: none;
+    text-anchor: middle;
+}
+
+.main-sub text {
+    fill: #313131;
+}
+
+.is-visible {
+    display: block;
+}
+
+.is-hidden {
+    display: none;
+}
+
+.is-hover {
+    fill: #313131;
+}
+
+.is-surfaced {
+    z-index: 1000;
+}
+
+.is-under {
+    z-index: 100;
+}

@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="content">
+        <h1>Choose your pet: radial menu</h1>
+        <svg id="main-chart" class="is-surfaced"></svg>
+        <div id="sub-menu-container" class="is-under">
+            <svg id="sub-menu" width="450" height="450">
+                <g transform="translate(225, 225)"></g>
+                <g id="action-messages">
+                    <text class="inner-label action" dy=".35em" fill="#fff" style="text-anchor: middle;"></text>
+                </g>
+            </svg>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
